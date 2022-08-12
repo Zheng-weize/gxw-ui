@@ -83,9 +83,11 @@
     >#### npm run build:css 
   * >#### 组合打包
     >#### npm run build
+* >#### 组件库部署
+  >#### npm publish
 * >#### vuepress项目打包
   >#### npm run docs:build
-* >#### vuepress脚本打包
+* >#### vuepress脚本打包部署
   >#### npm run deploy  
   >#### 自动上传github站点部署  使用SSL密钥上传
 
