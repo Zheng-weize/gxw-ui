@@ -10,6 +10,7 @@ async function makeList(dirPath, list){
         const component = item.split(/[/.]/)[2];
         list[component] = `./${item}`
     })
+    console.log(list, 999)
 }
 
 makeList('components/lib', list);
