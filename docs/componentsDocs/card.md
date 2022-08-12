@@ -2,12 +2,12 @@
 卡片组件
 
 ### 示例
-<card imgSrc="/logo.png" summary="Vue" />
+<card imgSrc="/gxw-ui/logo.png" summary="Vue" />
 
 
 ### 代码
 ```html
-<card imgSrc="/logo.png" summary="Vue" />
+<card imgSrc="/gxw-ui/logo.png" summary="Vue" />
 ```
 
 ### Attributes
