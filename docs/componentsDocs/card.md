@@ -7,7 +7,7 @@
 
 ### 代码
 ```html
-<card imgSrc="/gxw-ui/logo.png" summary="Vue" />
+<gxw-card imgSrc="/gxw-ui/logo.png" summary="Vue" />
 ```
 
 ### Attributes

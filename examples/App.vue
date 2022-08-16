@@ -1,27 +1,12 @@
 <template>
   <div id="app">
 <!--    <img alt="Vue logo" src="./assets/logo.png">-->
-    <Demo />
-    <card imgSrc="img.png" summary="兼职java"></card>
+    <gxw-card imgSrc="img.png" summary="兼职java"></gxw-card>
     <br>
-    <card imgSrc="img.png" summary="兼职javaxxx">
-      <template v-slot:footer>
-        <div class="footer">
-          <div class="level">中级</div>
-          <div class="price">$299.00</div>
-        </div>
-      </template>
-    </card>
-    <br>
-    <card imgSrc="img.png" :width="370" :imgHeight="90">
-      你好的事实是事实ds
-      <template v-slot:footer>
-        <div class="footer-spring">
-          <div class="level">中级</div>
-          <div class="price">$299.00</div>
-        </div>
-      </template>
-    </card>
+    <gxw-button type="default" size="small">你好</gxw-button>
+    <gxw-button type="default" size="normal">你是谁</gxw-button>
+    <gxw-button type="default" size="large">你是谁</gxw-button>
+    <gxw-button type="000" size="large1">你是谁</gxw-button>
   </div>
 </template>
 

@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "Card",
+  name: "gxw-card",
   props: {
     width: {
       type: Number,

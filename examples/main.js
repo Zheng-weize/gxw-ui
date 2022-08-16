@@ -1,14 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import '../components/css/demo.scss';
-import '../components/css/card.scss';
-import Demo from '../components/lib/demo/index';
-import Card from '../components/lib/card/index';
+import '../components/css/index.scss';
+import GXW from '../components/lib/index';
 
 
-Vue.use(Card);
-Vue.use(Demo); //Vue.use() -> Demo.install -> Vue.component()
+Vue.use(GXW); //Vue.use() -> Demo.install -> Vue.component()
 
 // import 'gxw-component-ui/dist/css/index.css';
 // import GXW from 'gxw-component-ui';
